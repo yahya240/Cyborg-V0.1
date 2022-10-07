@@ -1,0 +1,45 @@
+
+.gaming-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px #666 solid;
+    margin: 1rem 0;
+    padding: 1rem 0;
+}
+
+/* .gaming-item{
+    
+} */
+
+.gaming-img{
+    border-radius: var(--border-raidus-primary);
+}
+
+.gaming-btn{
+    color: #666;
+    border: 1px #666 solid;
+    padding: 0.8rem 1.8rem;
+    border-radius: 2rem;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+}
+
+.gaming-btn:hover{
+    color: var(--color-primary);
+    border: 2px var(--color-primary) solid;
+}
+
+.gaming-item-title{
+    font-size: 1rem;
+    font-weight: var(--font-weigth-normal);
+    line-height: 1.5rem;
+}
+
+.gaming-item-subtitle{
+    font-size: 1rem;
+    font-weight: var(--font-weigth-normal);
+    line-height: 1.5rem;
+    color: #666;
+}

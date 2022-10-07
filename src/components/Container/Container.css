@@ -1,0 +1,13 @@
+
+/* body{
+    width: 75vw;
+    margin: 0 auto;
+} */
+
+.main-container{
+    background-color: var(--color-dark);
+    padding: var(--padding-primary);
+    border-radius: var(--border-raidus-primary);
+
+    color:var(--color-light);
+}

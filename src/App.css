@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+:root{
+    --color-dark:#27292a;
+    --color-darkest:#1f2122;
+    --color-primary: #ec6090;
+    --color-light:#fff;
+
+    --color-bg-body: var(--color-darkest);
+
+    --distance-primary: 50px;
+    --padding-primary: var(--distance-primary);
+    --margin-primary: var(--distance-primary);
+    --margin-secondary: calc(var(--distance-primary)/2);
+    --padding-secondary: calc(var(--distance-primary)/2);
+    --border-raidus-primary: calc(var(--distance-primary)/2);
+
+    --font-family-primary: 'Poppins', sans-serif;
+    --font-weight-bold:900;
+    --font-weigth-normal:400;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body{
+    background-color: var(--color-bg-body);
+    font-family:var(--font-family-primary);
 }
